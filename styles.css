@@ -1,0 +1,150 @@
+body {
+background-color: #F0ECEE;
+font-family: 'Fira Sans', sans-serif;   
+
+}
+
+.adopt{
+    font-weight: 400;
+    font-size: 25px;
+ 
+}
+
+
+
+ul, li{
+list-style-type: none;
+margin: 0;
+padding: 0;
+
+}
+
+a{
+text-decoration: none;
+color: #88898B;
+
+}
+
+
+
+    
+me.red{
+  color: #FF4850;
+
+}
+
+
+.question {
+   font-weight: 600;
+   
+}
+
+
+.para{
+color: grey;
+font-weight: 300;
+font-size 400;
+display: flex;
+
+}
+
+
+a:hover{
+color: #FF4850;
+    
+}
+
+a#button{
+background-color: #FF4850;
+border-radius: 15px;
+display: inline-block;
+padding: 10px;
+color: white;
+text-align: center;
+width: 100%;
+margin: auto;
+box-sizing: border-box;
+}
+
+a#button:hover{
+  background-color: #CCC;
+  color: #FF4850;
+  
+
+  
+}
+
+
+
+@media (min-width: 768px) {
+  body {
+background: url(bulldog.jpg); 
+background-size:cover;
+Margin-top: 15px;
+Margin-right: 40px;
+Margin-left: 40px;
+Margin bottom: 15px;
+    }
+
+    
+.flex {
+    
+display: flex;  
+align-items: center;
+justify-content:  flex-end;
+
+    
+    
+    }
+    
+.adopt{
+  align-items: flex-end;
+  flex: 1;
+  margin: auto;
+  font-size: 18px;
+        
+    }
+    
+    
+    
+.nav
+    {
+    margin-right: auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    }
+
+
+
+    
+
+    
+ul,li{
+
+padding: 10px;
+ 
+
+    }
+    
+
+
+
+    a#button{
+    
+    width: auto;
+    
+    
+        
+    }
+    .question{
+    line-height: 36pt;
+        
+        
+    }
+    .para {
+        line-height: 20pt;
+        
+    }
+ }
+        
